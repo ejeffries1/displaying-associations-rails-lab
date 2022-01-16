@@ -1,0 +1,6 @@
+<h3>Welcome</h3>
+
+<%Song.all.each do |song|%>
+    <%= link_to song.artist_title, song_path(song)%>
+    <%#binding.pry%>
+<%end%>
